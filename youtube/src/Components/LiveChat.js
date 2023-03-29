@@ -12,7 +12,7 @@ const LiveChat = () => {
 
    useEffect(()=> {
      const i = setInterval(() => {
-        
+          
          dispatch(
             addMessage({
                name:generateRandomName(),
